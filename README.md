@@ -6,7 +6,7 @@
 
   1. The smaller order variables are ignored.
   2. Coefficents are ignored.
-  3. The machine its running on could be slow.
+  3. Asymptotic analysis considers worse time which can be misleading.
 
 - Suppose finding a particular element in a binary search tree with 1,000
   elements takes 5 seconds. Given what you know about the asymptotic complexity
@@ -24,6 +24,6 @@
 
   1. When the program was initialy run it could have been run on a nasa super computer and gotten lucky when finding the number. Then it could have been run again on a computer from 1991 leading to much slower results.
   2. The program does arbitrary things as it gets larger slowing down time.
-  3. Something could have gone wrong with the tree when it was built leading the tree to only have one branch turning it basicly into a linked list which means it must go through all the numbers. 
+  3. the program could have been given a linked list, and have tried to treat it as a tree causing it to slow down enough to reach that time.
 
 Add your answers to this markdown file.

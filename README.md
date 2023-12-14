@@ -6,7 +6,7 @@
 
   1. The smaller order variables are ignored.
   2. Coefficents are ignored.
-  3. Asymptotic analysis considers worse time which can be misleading.
+  3. Asymptotic analysis considers worst, average, and best times which can be misleading by overestimating or underestimating the time of the program.
 
 - Suppose finding a particular element in a binary search tree with 1,000
   elements takes 5 seconds. Given what you know about the asymptotic complexity
@@ -24,6 +24,6 @@
 
   1. When the program was initialy run it could have been run on a nasa super computer and gotten lucky when finding the number. Then it could have been run again on a computer from 1991 leading to much slower results.
   2. The program does arbitrary things as it gets larger slowing down time.
-  3. the program could have been given a linked list, and have tried to treat it as a tree causing it to slow down enough to reach that time.
+  3. The program for the larger set could have been given a linked list, and the program for the smaller set could have been given a binary tree. this could lead to the large descrepency.
 
 Add your answers to this markdown file.
